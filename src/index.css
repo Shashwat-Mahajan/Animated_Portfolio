@@ -18,7 +18,12 @@
 }
 
 #page1-in{
-  perspective: 1000px;
+  perspective: 1500px;
+  position: relative;
+}
+
+#section2 {
+  perspective: 3000px;
   position: relative;
 }
 
@@ -27,5 +32,9 @@
   width: fit-content;
 }
 
+.rotateText{
+  /* background-color: red; */
+  transform-origin: 100% 70%;
+}
 
 
